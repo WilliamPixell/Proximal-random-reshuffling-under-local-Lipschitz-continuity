@@ -10,8 +10,6 @@ This repository contains code to support the findings of our manuscript titled *
 | `Figure1.ipynb`         | Generates main figures for the manuscript (e.g., convergence plots, algorithm comparisons). | - Convergence curves under varying Lipschitz constants<br>- Visualizations for Section 3.2 (manuscript) |  
 | `Global Minima.ipynb`   | Analyzes properties of global minima under the proposed algorithm.       | - Stability metrics of minima<br>- Comparison with baseline methods (Table 1 in manuscript) |  
 | `Matrix Completion.ipynb` | Implements matrix completion as a case study application.               | - Reconstruction error results<br>- Runtime performance benchmarks (Figure 4 in manuscript) |  
-| `.gitignore`            | Excludes generated files (e.g., `.pdf`, `.png`) to keep the repo focused on source code. | - Ensures only executable code is tracked by Git. |  
-
 
 ## Setup Instructions  
 
@@ -20,4 +18,11 @@ To reproduce results locally:
 1. **Clone the repository**:  
    ```bash  
    git clone https://github.com/WilliamPixell/Proximal-random-reshuffling-under-local-Lipschitz-continuity.git  
-   cd Proximal-random-reshuffling-under-local-Lipschitz-continuity  
+   cd Proximal-random-reshuffling-under-local-Lipschitz-continuity
+
+2. **Environment**:  
+   This project is tested with following specific library versions:
+   - **jax==0.8.1**
+   - **matplotlib==3.10.6**
+  
+
