@@ -1,20 +1,16 @@
 # Proximal Random Reshuffling under Local Lipschitz Continuity — Reproducibility Code
 
-This repository provides minimal code (Jupyter notebooks) to reproduce the numerical examples
-used in the manuscript **“Proximal random reshuffling under local Lipschitz continuity”** and
-in the authors’ response to reviewers.
-
-The notebooks are intended to be **self-contained**: open them and run all cells.
+This repository provides Jupyter notebooks to reproduce the numerical examples used in the manuscript **“Proximal random reshuffling under local Lipschitz continuity”**. 
 
 ---
 
 ## Contents
 
-| File | What it reproduces | Notes |
-|---|---|---|
-| `Figure1.ipynb` | Gradient descent behavior for illustrative 2D examples (including the *lower-bounded*, real-analytic, definable example used in the response). | Includes plots showing non-uniform boundedness/cycling behavior for small constant step sizes. |
-| `Global Minima.ipynb` | Two-parameter one-hidden-layer sigmoid example: GD approaches the global infimum while parameter norms diverge. | Used to illustrate that “unbounded iterates” need not imply a meaningless optimization trajectory. |
-| `Matrix Completion.ipynb` | Robust/asymmetric matrix completion toy instance, including multi-initialization sweeps. | Demonstrates **initialization sensitivity**: some initializations yield bounded trajectories, others become unbounded. |
+| File | What it reproduces |
+|---|---|
+| `Figure1.ipynb` | A lower-bounded, real-analytic, definable example illustrating bounded iterates can be divergent no matter how small constant step sizes are used. |
+| `Global Minima.ipynb` | A two-parameter one-hidden-layer sigmoid example where GD approaches the global infimum while the parameter norm diverges. |
+| `Matrix Completion.ipynb` | A robust asymmetric matrix completion instance illustrating that under square-summable diminishing step sizes, some random initializations yield bounded trajectories while others become unbounded. |
 
 ---
 
