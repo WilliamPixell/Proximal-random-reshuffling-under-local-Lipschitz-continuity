@@ -1,4 +1,4 @@
-# Proximal Random Reshuffling under Local Lipschitz Continuity — Reproducibility Code
+# Proximal Random Reshuffling under Local Lipschitz Continuity 
 
 This repository provides Jupyter notebooks to reproduce the numerical examples used in the manuscript **“Proximal random reshuffling under local Lipschitz continuity”**. 
 
