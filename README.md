@@ -1,6 +1,7 @@
 # Proximal Random Reshuffling under Local Lipschitz Continuity  
 
-This repository contains code to support the findings of our manuscript titled *"[Manuscript Title]"*. It includes Jupyter Notebooks for experimental validation, figure generation, and case studies related to proximal random reshuffling under local Lipschitz continuity assumptions.  
+This repository contains code to support the findings of our manuscript titled *Proximal random reshuffling under local
+Lipschitz continuity*. It includes Jupyter Notebooks for experimental validation, figure generation, and case studies related to proximal random reshuffling under local Lipschitz continuity assumptions.  
 
 
 ## Repository Structure  
