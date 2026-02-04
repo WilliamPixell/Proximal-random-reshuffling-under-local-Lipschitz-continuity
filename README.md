@@ -1,16 +1,22 @@
-# Proximal Random Reshuffling under Local Lipschitz Continuity  
+# Proximal Random Reshuffling under Local Lipschitz Continuity — Reproducibility Code
 
-This repository contains code to support the findings of our manuscript titled *Proximal random reshuffling under local
-Lipschitz continuity*. It includes Jupyter Notebooks for experimental validation, figure generation, and case studies related to proximal random reshuffling under local Lipschitz continuity assumptions.  
+This repository provides minimal code (Jupyter notebooks) to reproduce the numerical examples
+used in the manuscript **“Proximal random reshuffling under local Lipschitz continuity”** and
+in the authors’ response to reviewers.
 
+The notebooks are intended to be **self-contained**: open them and run all cells.
 
-## Repository Structure  
+---
 
-| File Name               | Purpose                                                                 | Key Outputs/Experiments                                                                 |  
-|-------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|  
-| `Figure1.ipynb`         | Generates main figures for the manuscript (e.g., convergence plots, algorithm comparisons). | - Convergence curves under varying Lipschitz constants<br>- Visualizations for Section 3.2 (manuscript) |  
-| `Global Minima.ipynb`   | Analyzes properties of global minima under the proposed algorithm.       | - Stability metrics of minima<br>- Comparison with baseline methods (Table 1 in manuscript) |  
-| `Matrix Completion.ipynb` | Implements matrix completion as a case study application.               | - Reconstruction error results<br>- Runtime performance benchmarks (Figure 4 in manuscript) |  
+## Contents
+
+| File | What it reproduces | Notes |
+|---|---|---|
+| `Figure1.ipynb` | Gradient descent behavior for illustrative 2D examples (including the *lower-bounded*, real-analytic, definable example used in the response). | Includes plots showing non-uniform boundedness/cycling behavior for small constant step sizes. |
+| `Global Minima.ipynb` | Two-parameter one-hidden-layer sigmoid example: GD approaches the global infimum while parameter norms diverge. | Used to illustrate that “unbounded iterates” need not imply a meaningless optimization trajectory. |
+| `Matrix Completion.ipynb` | Robust/asymmetric matrix completion toy instance, including multi-initialization sweeps. | Demonstrates **initialization sensitivity**: some initializations yield bounded trajectories, others become unbounded. |
+
+---
 
 ## Setup Instructions  
 
